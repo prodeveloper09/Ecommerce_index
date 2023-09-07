@@ -326,6 +326,62 @@
 }
 }
 
+/* Moblie devices */
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .text_style {
+    top: -28px;
+}
+.text_style h4 {
+  font-size: 15px;
+  padding: 0px 15px;
+}
+.text_style p {
+  font-size: 8px;
+  padding: 0 20px;
+  margin-bottom: -5px;
+}
+
+.text_style_slider {
+  top: 0px;
+}
+
+.banner_text h3 {
+  font-size: 18px;
+}
+.banner_text {
+  top: 25px;
+}
+.banner_text h6 {
+  font-size: 15px;
+}
+.banner_text a {
+  font-size: 10px;
+}
+.owl-nav {
+  top: -45px;
+}
+.header_right ul li .search_form {
+  width: 280px;
+}
+.subscribe_item form input {
+  width: 250px;
+}
+.buttan {
+  right: 10px;
+  top: 85px;
+}
+.buttan {
+  height: 40px;
+  width: 120px;
+}
+
+
+
+
+
+}
 
 /* shop page responsive */
 
@@ -412,12 +468,12 @@
   float: right;
 }
 
-.xs_responsives{
+/* .xs_responsives{
   margin-left: 320px;
-}
+} */
 
 .shop_tabs_xs li {
   margin-right: 6px;
-}
+} 
 
 }
